@@ -1,0 +1,49 @@
+# ── Dependências ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Variáveis de ambiente (NUNCA commitar) ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# ── Banco de dados ─────────────────────────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+backend/data/
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ── Certificados TLS / chaves privadas ─────────────────────────────────────────
+certs/
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+
+# ── Build do frontend ──────────────────────────────────────────────────────────
+frontend/dist/
+frontend/.vite/
+
+# ── macOS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editores ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+tmp/

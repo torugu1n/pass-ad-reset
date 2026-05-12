@@ -1,0 +1,36 @@
+{
+  "name": "pass-ad-reset-backend",
+  "version": "1.0.0",
+  "description": "Portal de Recuperação de Senha AD - Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node src/database/migrate.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-sqlite3": "^0.9.13",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "iconv-lite": "^0.6.3",
+    "ldapjs": "^3.0.7",
+    "nodemailer": "^6.9.13",
+    "otplib": "^12.0.1",
+    "speakeasy": "^2.0.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
